@@ -41,7 +41,7 @@ function div() {
        var n1= Number(document.getElementById("firstNo").value) ;
        var n2 = Number(document.getElementById("secondNo").value);
        result= n1/n2
-    if (secondNo === 0){
+    if (n2 === 0){
         document.querySelector("#result").value = "Error div 0"
 
     }else{
